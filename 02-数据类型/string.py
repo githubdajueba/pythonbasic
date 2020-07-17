@@ -34,4 +34,40 @@ print(tedu[-4:-1])
 
 i = 10
 name = "lpx"
+# 常用于SQL中
 print("我叫%s,今年%d歲"%(name,i))
+
+# 保留小数位数
+pi = 3.14159265
+print("%.3f是圆周率的近似值"%pi)
+
+s = "hello world"
+print(s.find("wo"))
+print(s.count("o"))
+s1 = s.replace("h","H")
+print(s1)
+
+print(s.capitalize())
+print(s.title())
+print(s) # 字符串不可变
+
+a = "hi"
+b = "hello"
+print(a)
+print(b)
+# a.rjust(10)
+print("'%s'"%a.rjust(10))
+print("%s"%b.rjust(10))
+print("%s"%a.center(10))
+print("%s"%b.center(10))
+
+a = "abcdef"
+print(a.partition("cd"))
+t = a.partition("cd")
+print(type(t))
+
+print(type(list(a)))
+print(type(list(t)))
+
+
+
